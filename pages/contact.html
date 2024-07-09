@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Truck</title>
+    <link rel="stylesheet" href="../public/css/styles.css">
+</head>
+<body>
+    <header class="other-pages">
+        <div class="logo">
+            <img src="../public/images/logo.png" alt="FoodTruck">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/menu.html">Menu</a></li>
+                <li><a href="../pages/catering.html">Catering</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-container contact-page-container">
+        <div class="section-content contact-page-content">
+            <h3>Want to book for catering or issues with our services, CONTACT US</h3>
+            <div class="contact-page-inner">
+                <div>
+                    <p>Please provide the required details below if you are contacted for catering.</p>
+                    <ul class="contact-list-container">
+                        <li><p class="" >Contact name / Company name (billing name)</p></li>
+                        <li><p class="" >Email</p></li>
+                        <li><p class="" >On-site contact | Phone Number</p></li>
+                        <li><p class="" >Event Date | Time </p></li>
+                        <li><p class="" >Address of the event</p></li>
+                        <li><p class="" >Number of guests/servings</p></li>
+                        <li><p class="" >Parking details (Please be specific)</p></li>
+                        <li><p class="" >Menu choices</p></li>
+                        <li><p class="" >Beverages / Dessert? / Apps?</p><p class=""></p></li>
+                    </ul>
+                </div>
+                <div class="form-container">
+
+                    <form id="contact-form" action="https://formspree.io/f/xjkbvqka"
+                    method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name or Business Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-container">
+        <div class="contact-details">
+            <h3>Contact Info</h3>
+            <p>+1437-850-4021</p>
+            <p>mealsonwheels@gmail.com</p>
+            <p>York Mills Road, Toronto, ON, M3A2H4</p>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+            <p>&copy; 2024 Meals on Wheels. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../public/js/index.js"></script>
+</body>
+</html>
