@@ -115,8 +115,8 @@ main {
     top: 0;
     left: 0;
     z-index: 1;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
+    filter: blur(.7px);
+    -webkit-filter: blur(.7px);
 }
 
 .hero-text {
@@ -133,6 +133,7 @@ main {
     z-index: 2;
     letter-spacing: 2px;
 }
+
 .hero-text h1{
     font-size: 4rem;
     text-transform: uppercase;
@@ -206,6 +207,7 @@ main {
 .catering-container{
     /* background-color: red; */
 }
+
 .catering-content{
     width: 100%;
     margin:0 auto;
@@ -221,11 +223,15 @@ main {
 .catering-content{
     /* background-color: red; */
 }
+
 .catering-images img{
     max-width: 100%;
     height:400px;
+    
 }
-
+.catering-content  h2{
+    text-transform: uppercase;
+}
 /* --------------------------ABOUT US------------------------------ */
 .about-us-container{
     /* background-color: red; */
@@ -288,7 +294,7 @@ footer a {
 }
 
 
-/* ---------------CONTACT PAGE----------------- */
+/* ---------------BOOK US PAGE----------------- */
 
 
 .contact-page-content h3{
@@ -331,10 +337,7 @@ footer a {
     width: 50%;
 } 
 
-.contact-details{
-    margin-top:3rem;
-    margin-bottom: 2rem;;
-}
+
 #contact-form{
     
     padding: 20px 20px;
@@ -390,6 +393,40 @@ button[type="submit"]:hover {
     background-color: var(--black-shaded);
 }
 
+/* ------------------CONTACT PAGE-------------------- */
+.contact-inner-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.contact-inner-container div{
+    width: 50%;
+    margin: 20px;
+}
+
+.contact-page-content-2{
+    text-align: left;
+}
+
+
+
+.contact-page-content-2 h2 {
+    text-transform: uppercase;
+}
+
+.contact-page-content-2 span{
+    font-weight: bold;
+}
+.contact-page-image img{
+    width: 100%;
+    height: 680px;
+}
+
+.contact-details{
+    margin-top:3rem;
+    margin-bottom: 2rem;
+}
 /* ----------------------ABOUT US ---------------------------- */
 .about-page-container{
     display: flex;
@@ -410,7 +447,7 @@ button[type="submit"]:hover {
 
 .about-hero-text {
     position: absolute;
-    top: 30%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -445,7 +482,10 @@ button[type="submit"]:hover {
     color: var(--black-shaded);
     margin-bottom: 20px;
 }
-
+.about-content span{
+    font-weight: 600;
+    font-size: 20px;
+}
 /* -------------------MENU PAGE-------------------- */
 
 .menu-section {
